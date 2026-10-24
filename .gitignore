@@ -1,0 +1,21 @@
+# Credentials and local operator state
+.env
+.env.*
+!.env.example
+.pgpass
+.pg_service.conf
+.private/
+secrets/
+
+# Migration payloads and local reports
+*.dump
+*.bak
+*.backup
+*.log
+migration-artifacts/
+
+# Local tooling
+.DS_Store
+__pycache__/
+node_modules/
+.venv/

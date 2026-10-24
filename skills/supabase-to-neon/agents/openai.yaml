@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supabase to Neon"
+  short_description: "Plan and verify a Supabase to Neon migration"
+  default_prompt: "Use $supabase-to-neon to audit this app and prepare a migration that preserves its data and permissions."
